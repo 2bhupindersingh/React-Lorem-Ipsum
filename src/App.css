@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  display: block;
+  place-items: center;
+  min-width: 100%;
+  min-height: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+.lorem-ipsum-container {
+  max-width: 900px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 20px auto;
+}
+.input-number {
+min-width: 300px;
+}
+.lorem-ipsum-form {
+  margin-bottom: 20px;
+}
+.lorem-ipsum-container p {
+  padding: 15px 40px 15px 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  font-size: 14px;
+  color: #616161;
+  position: relative;
+}
+.copy-to-clipboard {
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  background: #eee;
+  padding: 8px;
+  line-height: 1;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
